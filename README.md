@@ -1,5 +1,4 @@
 #Notepad++ Twig Highlighter 2.0
-(not worked)
 
 Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with UDL 2.0.
 
@@ -12,7 +11,8 @@ Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with
 6.  Complain about stuff that doesn't work.
 
 ##History
-may, 19 - Initial fork
+0.2 (may, 19) - First worked version
+0.1 (may, 19) - Initial fork
 
 
 ##Licence
