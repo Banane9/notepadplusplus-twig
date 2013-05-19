@@ -11,8 +11,8 @@ Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with
 6.  Complain about stuff that doesn't work.
 
 ##History
-0.2 (may, 19) - First worked version
-0.1 (may, 19) - Initial fork
+0.2 (may, 19) - First worked version.<br/>
+0.1 (may, 19) - Initial fork.
 
 
 ##Licence
