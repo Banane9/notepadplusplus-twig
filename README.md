@@ -4,10 +4,10 @@ Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with
 
 ##Installation
 1.  Start notepad++.
-2.  Go to 'Language' > 'Define your language...'.
+2.  Go to 'View' > 'User-Defined Dialog...'.
 3.  Click 'Import' and select the 'twig.xml' file.
 4.  Restart Notepad++
-5.  Twig is now available in the list of languages.
+5.  Twig is now available in the list of languages ... at the bottom, above 'User-Defined'
 6.  Complain about stuff that doesn't work.
 
 ##History
