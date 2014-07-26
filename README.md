@@ -1,23 +1,21 @@
-#Notepad++ Twig Highlighter 2.1
+Notepad++ Twig Highlighter 2.1
+==============================
 
 Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with UDL 2.1
 
-##Installation
-1.  Start notepad++.
-2.  Go to 'View' > 'User-Defined Dialog...'.
-3.  Click 'Import' and select the 'twig.xml' file.
-4.  Restart Notepad++
-5.  Twig is now available in the list of languages ... at the bottom, above 'User-Defined'
-6.  Complain about stuff that doesn't work.
+##Installation##
 
-##History
-1.0 - Final version.<br/>
-0.2 - First worked version.<br/>
-0.1 (may, 19) - Initial fork.
+1. Start notepad++.
+2. Go to `Languages` > `Define own Language...` (first after the divider).
+3. Click `Import` and select the `Twig.xml` file.
+4. Restart Notepad++
+5. Twig is now available in the user-defined section in the `Languages` menu.
+6. Feel free to point out problems.
 
-##Licence
-This project is under GPL V3: http://www.gnu.org/licenses/gpl.html
+##Screenshot##
 
-##Credits
-[Banane9](https://github.com/Banane9/notepadplusplus-twig) - original project<br/>
-[cjmaxik](http://cjmaxik.ru) - update to UDL 2.1
+![Screenshot of the highlighting my Notepad++ Twig highlighter does.](http://i.imgur.com/pesGg8O.png)
+
+##Licence##
+
+[GPL V2](https://github.com/Banane9/notepadplusplus-twig/blob/master/LICENSE.md)

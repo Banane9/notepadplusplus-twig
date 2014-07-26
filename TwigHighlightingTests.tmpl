@@ -13,6 +13,8 @@
 {# Comment
 Multiline #}
 
+{{ "I like %S and %s."|format(foo, "bar") }}
+
 {% autoescape true %}
     {{ var }}
     {{ var|raw }}     {# var won't be escaped #}
@@ -22,6 +24,7 @@ Multiline #}
 {{ include('page.html', sandboxed = true) }}
 
 {{ "foo #{1 + 2.2} baz" }}
+{{ 'foo #{1 + 2.2} baz' }} {# string interpolation isn't supported for single quoted (by twig) #}
 
 {{ foo ? 'yes' : 'no' }}
 
