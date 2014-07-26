@@ -1,0 +1,63 @@
+{% for user in users %}
+    * {{ user.name }}
+{% else %}
+    No users have been found.
+{% endfor %}
+
+{% extends "layout.html" %}
+
+{% block content %}
+    Content of the page...
+{% endblock %}
+
+{# Comment
+Multiline #}
+
+{% autoescape true %}
+    {{ var }}
+    {{ var|raw }}     {# var won't be escaped #}
+    {{ var|escape }}  {# var won't be doubled-escaped #}
+{% endautoescape %}
+
+{{ include('page.html', sandboxed = true) }}
+
+{{ "foo #{1 + 2.2} baz" }}
+
+{{ foo ? 'yes' : 'no' }}
+
+{# as of Twig 1.12.0 #}
+{{ foo ?: 'no' }} {# is the same as #} {{ foo ? foo : 'no' }}
+{{ foo ? 'yes' }} {# is the same as #} {{ foo ? 'yes' : '' }}
+
+{% set value = 'no spaces' %}
+{#- No leading/trailing whitespace -#}
+{%- if true is same as(true) -%}
+    {{- value -}}
+{%- endif -%}
+
+{% set foo %}
+    <div id="pagination">
+        ...
+    </div>
+{% endset %}
+
+{% if 'Fabien' starts with 'F' %}
+{% endif %}
+
+{% set foo = [1, {"foo": "bar"}] %}
+
+{# keys as string #}
+{ 'foo': 'foo', 'bar': 'bar' }
+
+{# keys as names (equivalent to the previous hash) -- as of Twig 1.5 #}
+{ foo: 'foo', bar: 'bar' }
+
+{# keys as integer #}
+{ 2: 'foo', 4: 'bar' }
+
+{# keys as expressions (the expression must be enclosed into parentheses) -- as of Twig 1.5 #}
+{ (1 + 1): 'foo', (a ~ 'b'): 'bar' }
+
+["foo", "bar"] {# array #}
+
+'It\'s good'
