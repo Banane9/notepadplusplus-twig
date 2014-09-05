@@ -18,4 +18,4 @@ Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with
 
 ##Licence##
 
-[GPL V2](https://github.com/Banane9/notepadplusplus-twig/blob/master/LICENSE.md)
+[LGPL V2.1](https://github.com/Banane9/notepadplusplus-twig/blob/master/LICENSE.md)
