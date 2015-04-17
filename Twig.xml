@@ -19,7 +19,7 @@
             <Keywords name="Folders in code1, middle"></Keywords>
             <Keywords name="Folders in code1, close"></Keywords>
             <Keywords name="Folders in code2, open">autoescape block filter embed for if macro sandbox spaceless verbatim</Keywords>
-            <Keywords name="Folders in code2, middle">else</Keywords>
+            <Keywords name="Folders in code2, middle">else elseif</Keywords>
             <Keywords name="Folders in code2, close">endautoescape endblock endfilter endembed endfor endif endmacro endsandbox endspaceless endverbatim</Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>

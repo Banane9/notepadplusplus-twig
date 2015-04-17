@@ -36,6 +36,8 @@ Multiline #}
 {#- No leading/trailing whitespace -#}
 {%- if true is same as(true) -%}
     {{- value -}}
+{%- elseif true -%}
+	{{- value -}}
 {%- endif -%}
 
 {% set foo %}
