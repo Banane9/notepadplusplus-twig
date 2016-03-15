@@ -7,14 +7,25 @@ Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with
 
 1. Start notepad++.
 2. Go to `Languages` > `Define own Language...` (first after the divider).
-3. Click `Import` and select the `Twig.xml` file.
+3. Click `Import` and select the `Twig.xml` or `TwigAlternative.xml` file.
 4. Restart Notepad++
 5. Twig is now available in the user-defined section in the `Languages` menu.
 6. Feel free to point out problems.
 
-##Screenshot##
+-----------------------------------------------------------------------------------------------------------------------
 
-![Screenshot of the highlighting my Notepad++ Twig highlighter does.](http://i.imgur.com/pesGg8O.png)
+##Standard Highlighter##
+
+![Screenshot of the highlighting with standard Twig highlighter.](http://puu.sh/nHQ97/4549453909.png)
+
+
+##Alternative Highlighter##
+
+![Screenshot of the highlighting with alternative Twig highlighter.](http://puu.sh/nHQ6Z/78ba384843.png)
+
+This fixes (or rather, works around) the problem described in [Issue #13](https://github.com/Banane9/notepadplusplus-twig/issues/13), but looks a bit different and may have other quirks.
+
+-----------------------------------------------------------------------------------------------------------------------
 
 ##Licence##
 
