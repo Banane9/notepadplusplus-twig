@@ -52,17 +52,21 @@ Multiline #}
 {% set foo = [1, {"foo": "bar"}] %}
 
 {# keys as string #}
-{ 'foo': 'foo', 'bar': 'bar' }
+{% { 'foo': 'foo', 'bar': 'bar' } %}
 
 {# keys as names (equivalent to the previous hash) -- as of Twig 1.5 #}
-{ foo: 'foo', bar: 'bar' }
+{% { foo: 'foo', bar: 'bar' } %}
 
 {# keys as integer #}
-{ 2: 'foo', 4: 'bar' }
+{% { 2: 'foo', 4: 'bar' } %}
 
 {# keys as expressions (the expression must be enclosed into parentheses) -- as of Twig 1.5 #}
-{ (1 + 1): 'foo', (a ~ 'b'): 'bar' }
+{% { (1 + 1): 'foo', (a ~ 'b'): 'bar' } %}
 
-["foo", "bar"] {# array #}
+{% ["foo", "bar"] {# array #} %}
 
-'It\'s good'
+{% 'It\'s good' %}
+
+ <button class="btn subscribe col-md-offset-3">S'inscrire</button>
+ 
+ 
