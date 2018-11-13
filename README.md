@@ -3,7 +3,8 @@ Notepad++ Twig Highlighter 2.1
 
 Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with UDL 2.1
 
-##Installation##
+Installation
+------------
 
 1. Start notepad++.
 2. Go to `Languages` > `Define own Language...` (first after the divider).
@@ -14,19 +15,26 @@ Simple [Twig](http://twig.sensiolabs.org/) syntax highlighter for Notepad++ with
 
 -----------------------------------------------------------------------------------------------------------------------
 
-##Standard Highlighter##
+Standard Highlighter
+--------------------
 
-![Screenshot of the highlighting with standard Twig highlighter.](http://puu.sh/nHQ97/4549453909.png)
+![Screenshot of the highlighting with standard Twig highlighter.](https://camo.githubusercontent.com/7ec35a9154f8344b7cbf8871076402d9245027f7/687474703a2f2f7075752e73682f6e485139372f343534393435333930392e706e67)
 
+Dark Highlighter
+----------------
 
-##Alternative Highlighter##
+Check out `TwigDark.xml` if you're using a dark theme.
 
-![Screenshot of the highlighting with alternative Twig highlighter.](http://puu.sh/nHQ6Z/78ba384843.png)
+Alternative Highlighter
+-----------------------
+
+![Screenshot of the highlighting with alternative Twig highlighter.](https://camo.githubusercontent.com/17e4b2e146675a41b5d92a370fb50aa28f16cdb1/687474703a2f2f7075752e73682f6e4851365a2f373862613338343834332e706e67)
 
 This fixes (or rather, works around) the problem described in [Issue #13](https://github.com/Banane9/notepadplusplus-twig/issues/13), but looks a bit different and may have other quirks.
 
 -----------------------------------------------------------------------------------------------------------------------
 
-##Licence##
+Licence
+-------
 
 [LGPL V2.1](https://github.com/Banane9/notepadplusplus-twig/blob/master/LICENSE.md)
